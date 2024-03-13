@@ -28,8 +28,8 @@ So all our website has right now is the title of the webpage, called My Website.
 </html>
 ```
 
-Why <h1> instead of something like <h>? Well, there's actually 6 headers. <h1>, <h2>, <h3>, <h4>, <h5>, and <h6>.
-<h1> is the biggest header, and <h6> is the smallest.
+Why `<h1>` instead of something like `<h>`? Well, there's actually 6 headers. `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`.
+`<h1>` is the biggest header, and `<h6>` is the smallest.
 
 Now, you may be wondering how to run this. Well, first let's save our file. Once we've saved our file, we're going to run it in a browser. You will have to open your browser.
 
@@ -37,12 +37,12 @@ First, open up a file manager and find the filename.html file you created. If it
 
 So, we made our first website. But it looks pretty empty, except for a bit of text. So, let's try adding a button.
 
-Add <button>Click me!</button> right under the <h1> element, save the file, reload your webpage and look! There's now a button. Try clicking it, nothing happens. We need to use JavaScript to make the button functional!
+Add `<button>`Click me!`</button>` right under the `<h1>` element, save the file, reload your webpage and look! There's now a button. Try clicking it, nothing happens. We need to use JavaScript to make the button functional!
 
-Now, let's go over what exactly the main components of HTML are. First, we have <!DOCTYPE html>. This is a header, and it basically tells your browser, "Hey! This file should be displayed as HTML".
-Next there is the <html> element. This stores all of the html to be used in our page, including the body and head elements.
-The <head> element contains metadata. What is metadata you ask? Well, metadata is information about the webpage. Such as the document title, styles, scripts, and some other information. None of this is displayed. It's a sort of data about data, kind of like a header.
+Now, let's go over what exactly the main components of HTML are. First, we have `<!DOCTYPE html>`. This is a header, and it basically tells your browser, "Hey! This file should be displayed as HTML".
+Next there is the `<html>` element. This stores all of the html to be used in our page, including the body and head elements.
+The `<head>` element contains metadata. What is metadata you ask? Well, metadata is information about the webpage. Such as the document title, styles, scripts, and some other information. None of this is displayed. It's a sort of data about data, kind of like a header.
 
-Now, the <body> element contains everything that exists on the HTML page. Buttons, containers, inputs, paragraphs, you name it! Everything inside the <body> element should be able to be displayed.
+Now, the `<body>` element contains everything that exists on the HTML page. Buttons, containers, inputs, paragraphs, you name it! Everything inside the `<body>` element should be able to be displayed.
 
 We will talk about more advanced html in chapter 3. 
