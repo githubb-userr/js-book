@@ -1,0 +1,1 @@
+This is a JavaScript book. I learned JavaScript when I was just a little girl, now I am 14 and want to teach people what I know - for free. I hope you get something out of it!
