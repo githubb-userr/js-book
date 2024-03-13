@@ -37,7 +37,7 @@ First, open up a file manager and find the filename.html file you created. If it
 
 So, we made our first website. But it looks pretty empty, except for a bit of text. So, let's try adding a button.
 
-Add `<button>`Click me!`</button>` right under the `<h1>` element, save the file, reload your webpage and look! There's now a button. Try clicking it, nothing happens. We need to use JavaScript to make the button functional!
+Add `<button>Click me!</button>` right under the `<h1>` element, save the file, reload your webpage and look! There's now a button. Try clicking it, nothing happens. We need to use JavaScript to make the button functional!
 
 Now, let's go over what exactly the main components of HTML are. First, we have `<!DOCTYPE html>`. This is a header, and it basically tells your browser, "Hey! This file should be displayed as HTML".
 Next there is the `<html>` element. This stores all of the html to be used in our page, including the body and head elements.
