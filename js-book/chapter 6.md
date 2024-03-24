@@ -2,7 +2,7 @@
 Data types are types of data. (obviously)
 
 They are very important and used in all languages. The reason why is because, how would a computer know what 1+1 is? Well obviously 1+1 is 2, but the computer could also think it's 11. 
-What's a+b? Well it would make sense for it to be ab, and that's what JavaScript does. But when questioned with 1+1, 1 is just a character, same as all the letters in the alphabet. The computer isn't going to know what to do, so we ntringeed to specify it.
+What's a+b? Well it would make sense for it to be ab, and that's what JavaScript does. But when questioned with 1+1, 1 is just a character, same as all the letters in the alphabet. The computer isn't going to know what to do, so we need to specify it.
 
 Here's some logic,
 - "1"+"1" = "11"
@@ -11,6 +11,11 @@ Here's some logic,
 As you can see here, text is stored in double quotes. We can also use single quotes to indicate text. This text is called a *string*.
 
 You might be thinking, "What would happen if we didn't put it in quotes?". Well, most likely it would print an error to the console. In some cases though, the computer could think you are referencing a *variable*.
+
+There's another way to specify a string, rather than quotes, incasing it in two backquotes. Then we can specify variables, using ${variablename}. For example,
+```js
+var welcomemessage = `Hello, ${person}`
+```
 
 A variable is just a value stored and given a name. For example,
 
