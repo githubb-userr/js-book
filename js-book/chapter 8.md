@@ -1,5 +1,5 @@
 # Chapter 8: Functions
-There is one highly useful thing you can do in your code called called a function. A function is something you can run, to call some code you've written in your function. You can call this function whenever you want, rather than typing a ton of code every time you want to do something. You can also specify parameters, which are very useful if there's some value that you should be able to specify each time you run it
+There is one highly useful thing you can do in your code called a function. A function is something you can run, to call some code you've written in your function. You can call this function whenever you want, rather than typing a ton of code every time you want to do something. You can also specify parameters, which are very useful if there's some value that you should be able to specify each time you run it
 
 Functions are usually defined with the `function` keyword, or with `()`.
 To define using the `function` keyword, use this syntax.
