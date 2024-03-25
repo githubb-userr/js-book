@@ -127,4 +127,4 @@ In the first part of the for loop, we declare i as 0.
 In the middle part, we define where the loop ends.
 In the last part, we're declaring what happens right before the loop ends.
 
-Typically you use some variable, and default back to i. If you have a for loop inside a for loop, to avoid using i, we default to j and so on.
+Typically you use some variable, and default back to i. If you have a for loop inside a for loop, to avoid using i, we default to j and so on. Usually you don't have so many loops inside each other that you use z, and if you do you have some serious code readability issues.
