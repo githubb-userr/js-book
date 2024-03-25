@@ -38,7 +38,27 @@ function sendText(name, text) {
 sendText("Alex", "Hi there Alex!")
 ```
 This function has 2 parameters. If you run it in a browser, it will immediately alert, `To Alex: Hi there Alex!`
-Let's try experimenting with some parameters. Let's put an object in.
+Let's try experimenting with some parameters.
+
+Believe it or not, we can actually put a function in a parameter. It's called a callback. Watch this!
+```js
+function exampleCallbackFunction(callback) { //our parameter is called callback.
+    //do some stuff
+    let age = 3
+    callback(age) //this executes the function, we can even put a parameter in it
+}
+exampleCallbackFunction((ageParameter) => {//execute the function defined, note the value we put in the parameter
+    console.log(ageParameter)
+})
+```
+This may be hard to understand, here's a summary.
+- We create a function called exampleCallbackFunction(), and we define a parameter called callback. We could name this anything we wanted to, not just callback.
+- Then, we make a variable called age. Since we're using `let`, this variable will not exist outside of the function.
+- Now, we are executing our parameter, indicating that the parameter is a function, and we end the function.
+- We call our `exampleCallbackFunction` function now, specifying a parameter called ageParameter.
+- Once the `callback(age)` is executed, it will execute the function, putting `age` in the parameter, and we will log the age it puts inside.
+
+Let's make a function that you need to put an object in. We will have `person` be the specified object
 ```js
 function listPerson(person) {
     console.log(person.name)
