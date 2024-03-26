@@ -40,4 +40,4 @@ Please note that, you have to install express in the same folder as where you ma
 
 Now, to run our .js file we're going to type in cmd/terminal `node [filename.js]`. Typically index.js, as index.js is a sort of standard for the root of a project, however you can name it anything.
 
-If this works, you'll now have a server running!
+If this works, you'll now have a server running! In the case that it says something like `Access denied for port 80`, you can either try running the .js file as admin (sudo in linux) *or*, you can try changing the port that it's running on, to something like 3000. Then you should be able to access it at http://localhost:3000.
