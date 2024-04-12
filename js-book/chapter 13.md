@@ -13,6 +13,7 @@ There are also response codes we need to handle. A common one is 404, you must h
 - 403: Unauthorized
 - 500: Internal server error
 - 400: Bad request
+
 View the full list [here](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
 
 100 http codes are informational,
