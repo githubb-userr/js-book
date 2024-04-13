@@ -1,4 +1,4 @@
-# Routing with express
+# Chapter 13: Routing with express
 There are 4 types of requests we can send. (client to server). They are used in categorizing the different types of requests we get.
 - DELETE [Used for deleting something from somewhere]
 - GET [Used to get data]
