@@ -41,8 +41,10 @@ Color must be enclosed in double quotes or single quotes. There are a few ways t
 The most common way is to use hex colors. Hex colors must always start with #. A hex color uses hexadecimal, which is also called base 16. Hexadecimal colors go from 000000-ffffff, where instead of 1-9 it goes through 1-f. There are 3 pairs of hexadecimal digits, used to indicate red, green. and bue.
 
 For example,
-```RR GG BB
-ff 00 00```
+```
+RR GG BB
+ff 00 00
+```
 #ff0000 is the color red.
 
 In some cases, there are 4 pairs of hexadecimal digits, the fourth pair being used to indicate tranquility.
